@@ -1,1 +1,1 @@
-worker: python3 -m AutoForward
+worker: python3 -m bot

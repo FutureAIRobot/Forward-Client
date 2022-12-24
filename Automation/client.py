@@ -1,3 +1,4 @@
+"""
 from pyrogram import Client, __version__
 
 from AutoForward import API_HASH, APP_ID, LOGGER, \
@@ -28,3 +29,4 @@ class User(Client):
     async def stop(self, *args):
         await super().stop()
         self.LOGGER(__name__).info("Bot stopped. Bye.")
+"""
